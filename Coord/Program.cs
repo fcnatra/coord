@@ -12,6 +12,7 @@ namespace Coord
             new RunCalculation(args);
 
             Console.WriteLine("\nTHE END");
+            Console.ReadLine();
         }
 
         private static void ShowHelp()

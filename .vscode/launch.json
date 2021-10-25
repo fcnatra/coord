@@ -9,11 +9,11 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/bin/Debug/netcore5/Coord.dll",
+            "program": "${workspaceFolder}/Coord/bin/Debug/net5.0/Coord.dll",
             "args": [],
-            "cwd": "${workspaceRoot}",
-            "externalConsole": false,
-            "stopAtEntry": false
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "externalTerminal"
         }
     ]
 }
